@@ -1,8 +1,8 @@
 {
   "name": "is-empty",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Check whether a value is \"empty\".",
-  "repository": "https://github.com/ianstormtaylor/is-empty.git",
+  "repository": "https://github.com/cube-dan/is-empty.git",
   "license": "MIT",
   "main": "./lib/index.js",
   "scripts": {
