@@ -1,26 +1,31 @@
 
-> **Archived:** I wrote this package quite a while ago, and I'd consider it an anti-pattern. The main use case for it is checking if an object is empty, which can be done with [`lodash.isEmpty`](https://lodash.com/docs/4.17.11#isEmpty) instead. In many other cases, it's easier and more clear for people reading your code to just check `val.length === 0` or `val.size === 0` instead of using a separate package for it. And people continue to ask for more things to be considered "empty" over time, which are breaking changes, and just make it harder to understand what the API this package really offers is. For that reason, I've archived this package and I don't recommend using it anymore.
+> **~~Archived:** I wrote this package quite a while ago, and I'd consider it an anti-pattern. The main use case for it is checking if an object is empty, which can be done with [`lodash.isEmpty`](https://lodash.com/docs/4.17.11#isEmpty) instead. In many other cases, it's easier and more clear for people reading your code to just check `val.length === 0` or `val.size === 0` instead of using a separate package for it. And people continue to ask for more things to be considered "empty" over time, which are breaking changes, and just make it harder to understand what the API this package really offers is. For that reason, I've archived this package and I don't recommend using it anymore.~~
 
-# is-empty
+# its-empty
 
   Check whether a value is empty.
 
 ## Installation
-  
+
 ```
-$ npm install is-empty
+# no npm yet.
+$ npm install its-empty
+# instead install using repo url:
+yarn add https://github.com/cube-dan/its-empty.git#master
 $ npm test
 ```
 
 ## Example
 
 ```js
-var empty = require('is-empty');
+const empty = require('its-empty');
+// or ES6
+import empty from 'its-empty';
 
 empty([]);              // true
 empty({});              // true
 empty('');              // true
-empty(' ');            // true
+empty(' ');             // true
 empty(0);               // true
 empty(function(){});    // true
 empty(null);            // true
@@ -43,7 +48,7 @@ empty(new Error('fail'))// false
 
 ## API
 
-### isEmpty(value)
+### itsEmpty(value)
 
   Check whether `value` is empty.
 

@@ -2,7 +2,7 @@
 var assert = require('assert')
 var empty = require('..')
 
-describe('is-empty', function () {
+describe('its-empty', function () {
   it('handles arrays', function () {
     assert(empty([]) == true)
     assert(empty(['a', 'b']) == false)
