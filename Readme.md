@@ -20,6 +20,7 @@ var empty = require('is-empty');
 empty([]);              // true
 empty({});              // true
 empty('');              // true
+empty(' ');            // true
 empty(0);               // true
 empty(function(){});    // true
 empty(null);            // true
