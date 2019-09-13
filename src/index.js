@@ -78,7 +78,9 @@ function itsEmpty(val) {
       // Plain objects...
       case '[object Object]': {
         for (var key in val) {
-          if (has.call(val, key)){ return false; }
+          if (has.call(val, key)){ 
+            return false; 
+          }
         }
 
         return true;
