@@ -11,7 +11,7 @@
 # no npm yet.
 $ npm install its-empty
 # instead install using repo url:
-yarn add https://github.com/cube-dan/its-empty.git#master
+yarn add https://github.com/perfectcube/its-empty.git#master
 $ npm test
 ```
 
