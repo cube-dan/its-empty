@@ -3,7 +3,7 @@
 
 # its-empty
 
-  Check whether a value is empty.
+  Check if a value is empty.
 
 ## Installation
 
