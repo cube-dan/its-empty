@@ -50,7 +50,7 @@ empty(new Error('fail'))// false
 
 ### itsEmpty(value)
 
-  Check whether `value` is empty.
+  Check if `value` is empty.
 
 ## License
 
